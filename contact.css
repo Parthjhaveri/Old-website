@@ -1,0 +1,152 @@
+html, body{
+	background-image: url(https://hd.unsplash.com/photo-1443996264301-c81a3053d00a);
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+@media screen and (max-width: 767px) {
+	html, body {
+		background-image: none;
+		background-color: white;
+	}
+}
+
+/*------------------------------------- RESPONSIVE NAVBAR -------------------------------------------- */
+
+nav ul {
+	background-color: #800000;
+	overflow: hidden;
+	color: white;
+	padding: 0;
+	text-align: center;
+	-webkit-transition: max-height 0.4s;
+	-ms-transition: max-height 0.4s;
+	-moz-transition: max-height 0.4s;
+	-o-transition: max-height 0.4s;
+	transition: max-height 0.4s;
+}
+
+nav ul li {
+	display: inline-block;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+	transition: .5s;
+}
+
+nav ul li: hover {
+	color: black;
+	transition: .5s;
+}
+
+.handle {
+	width: 100%;
+	height: 50px;
+	background-color: #1a1a1a;
+	box-sizing: border-box;
+	padding: 5px;
+	cursor: pointer;
+	margin-top: -10px;
+	display: none;
+}
+
+#hamb {
+	color: white;
+	float: right;
+	margin-top: -10px;
+}
+
+@media screen and (max-width: 767px) {
+
+	nav ul {
+		max-height: 0px;
+	}
+
+	.showing {
+		max-height: 20em;
+	}
+	
+	nav ul li {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 15px;
+		text-align: left;
+	}
+
+	.handle {
+		display: block;
+	}
+
+}
+
+/*----------------------------------- END RESPONSIVE NAVBAR ------------------------------------------ */
+
+.footer{
+	width: auto;
+	height: auto;
+	background-color: black;
+	opacity: 0.7;
+}
+
+.contactme{
+	width: auto;
+	height: auto;
+	background-color: black;
+	opacity: 0.8;
+}
+
+#get{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.firstdiv{
+	width: auto;
+	height: auto;
+	background-color: #6AFB92;
+	opacity: 0.7;
+	margin-top: -10px;
+}
+
+#nyc{
+	opacity: 0.8;
+}
+
+.gmaps{
+	width: auto;
+	height: 300px;
+	background-image: url(https://images.unsplash.com/45/eDLHCtzRR0yfFtU0BQar_sylwiabartyzel_themap.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=983a358da0d088ef9e2176281424b27f);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.divtwo{
+	width: auto;
+	height: auto;
+	background-color: #FFA62F;
+	opacity: 0.4;
+}
+
+#githubpic{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: 200px;
+	width: 200px;
+}
+
+#githubpic:hover{
+	height: 220px;
+	width: 220px;
+	transition: .5s;
+}
+
+
+
+
+
+

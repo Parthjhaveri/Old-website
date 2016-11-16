@@ -1,0 +1,204 @@
+body{
+	background-image: url(https://hd.unsplash.com/39/yvDPJ8ZSmSVob7pRxIvU_IMG_40322.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	background-color: red;
+}
+
+
+/* MEDIA QUERY TO HIDE BACKGROUND PIC AT MOBILE WIDTH */
+
+@media screen and (max-width: 999px) {
+    body {
+        background-color: white;
+        background-image: none;
+        overflow-x: hidden;
+    }
+
+    .divone{
+    	background-color: white;
+    }
+}
+
+/*.portheader{
+	width: auto;
+	height: 85px;
+	background-color: #1a1a1a;
+	opacity: 0.6;
+}*/
+
+.quotediv{
+	background-color: #1a1a1a;
+	background-repeat: no-repeat;
+}
+
+.wrapperdiv{
+	opacity: none;
+}
+
+
+.divone{
+	width: auto;
+	height: auto;
+	color: white;
+	margin-bottom: 50px;
+}
+
+#boxhr{
+	width: 300px;
+	background-color: red;
+	border-width: 2px;
+	border-color: red;
+}
+
+/*------------------------------------- RESPONSIVE NAVBAR -------------------------------------------- */
+
+nav ul {
+	background-color: #800000;
+	overflow: hidden;
+	color: white;
+	padding: 0;
+	text-align: center;
+	-webkit-transition: max-height 0.4s;
+	-ms-transition: max-height 0.4s;
+	-moz-transition: max-height 0.4s;
+	-o-transition: max-height 0.4s;
+	transition: max-height 0.4s;
+}
+
+nav ul li {
+	display: inline-block;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+	transition: .5s;
+}
+
+nav ul li: hover {
+	color: black;
+	transition: .5s;
+}
+
+.handle {
+	width: 100%;
+	height: 50px;
+	background-color: #1a1a1a;
+	box-sizing: border-box;
+	padding: 5px;
+	cursor: pointer;
+	margin-top: -10px;
+	display: none;
+}
+
+#hamb {
+	color: white;
+	float: right;
+	margin-top: -10px;
+}
+
+@media screen and (max-width: 767px) {
+
+	nav ul {
+		max-height: 0px;
+	}
+
+	.showing {
+		max-height: 20em;
+	}
+	
+	nav ul li {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 15px;
+		text-align: left;
+	}
+
+	.handle {
+		display: block;
+	}
+}
+
+
+/*----------------------------------- END RESPONSIVE NAVBAR ------------------------------------------ */
+
+.hrone{
+	width: 500px;
+	border-width: 2px;
+	border-color: black;
+	background-color: black;
+}
+
+#box{
+	/*border: 2px solid white;*/
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+#portpic{
+	opacity: 0.4;
+	margin-top: 20px;
+}
+
+.divtwo{
+	width: auto;
+	height: auto;
+	background-color: #5E5A80;
+	opacity: 0.8;
+}
+
+.resume{
+	width: auto;
+	height: auto;
+	background-color: #FFEBCD;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#reshr{
+	background-color: #6D7B8D;
+	border-color: #6D7B8D;
+	opacity: 0.5;
+
+}
+
+.footer{
+	width: auto;
+	height: auto;
+	background-color: black;
+	opacity: 0.7;
+}
+
+.whitebox:hover{
+	background-color: white;
+	transition: .5s;
+}
+
+#stars{
+	opacity: 0.7;
+}
+
+.artwork{
+	width: auto;
+	height: auto;
+/*	background-color: white;*/
+	opacity: 0.8;
+}
+
+#tuxpic{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+#tuxpictwo{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+
+
+
